@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Resiliência Comunitária</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-green-600 p-4 text-white">
+        <div class="container mx-auto">
+            <h1 class="text-2xl font-bold">Resiliência Comunitária</h1>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mx-auto mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Mapeamento de Áreas de Risco -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4">Mapeamento de Áreas de Risco</h2>
+                <div id="risk-map" class="space-y-4">
+                    <!-- Mapa interativo será adicionado aqui -->
+                    <p>Exemplo: Área de risco de enchentes no centro da cidade.</p>
+                    <img src="https://via.placeholder.com/400x300" alt="Mapa de Áreas de Risco" class="rounded-lg">
+                </div>
+            </div>
+
+            <!-- Planos de Emergência Personalizados -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4">Planos de Emergência</h2>
+                <div id="emergency-plans" class="space-y-4">
+                    <div class="p-4 bg-gray-100 rounded-lg">
+                        <h3 class="text-lg font-semibold">Plano de Evacuação</h3>
+                        <p>Contato de Emergência: João - (11) 99999-9999</p>
+                        <p>Suprimentos: Água, Alimentos, Primeiros Socorros</p>
+                        <p>Rota de Evacuação: Rua Principal, até o ponto de encontro na Praça Central.</p>
+                    </div>
+                    <!-- Outros planos podem ser adicionados aqui -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Educação e Treinamento -->
+        <div class="mt-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-bold mb-4">Educação e Treinamento</h2>
+            <div id="education" class="space-y-4">
+                <div class="p-4 bg-gray-100 rounded-lg">
+                    <h3 class="text-lg font-semibold">Como se preparar para uma enchente</h3>
+                    <p>Assista ao vídeo e siga as instruções para se preparar para uma possível enchente.</p>
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen class="rounded-lg"></iframe>
+                </div>
+                <!-- Outros recursos educacionais podem ser adicionados aqui -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 p-4 text-white mt-8">
+        <div class="container mx-auto text-center">
+            <p>© 2024 Aplicativo de Resiliência Comunitária. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
